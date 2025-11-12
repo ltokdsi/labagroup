@@ -17,7 +17,7 @@ class HangmanGame:
         if letter in self.word:
             # Буква угадана - открываем её в слове
             for i, char in enumerate(self.word):
-                if char ==letter:
+                if char == letter:
                     self.hidden_word[i] = letter
             print("✅ Верно!")
         else:
